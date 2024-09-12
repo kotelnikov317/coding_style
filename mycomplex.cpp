@@ -301,8 +301,8 @@ Complex operator-(const double &aLval,const Complex&aRval){
     @result Результат умножения
 */
 Complex operator*(const double &aLval,const Complex &a){
-    Complex r;
-    r.Re = aLval * a.Re;
-    r.Im = aLval * a.Im;
+    Complex Result;
+    Result.Re = aLval * a.Re;
+    Result.Im = aLval * a.Im;
     return Result;
 }
