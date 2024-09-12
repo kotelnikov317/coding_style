@@ -1,9 +1,10 @@
 #include <iostream>
 #include "mycomplex.h"
-
+//С„Р°Р№Р» РёР·РјРµРЅРµРЅ
+//Р¤Р°Р№Р» РёР·РјРµРЅРµРЅ в„–2
 using namespace std;
 
-int main(){//тестирование класса комплексных чисел
+int main(){//
     Complex A, B(-4), C(23.0, 45.9);
 
     cout << A << "," << B << "," << C << endl;
